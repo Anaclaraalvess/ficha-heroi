@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtNomeHeroi" type="id" />
+    <item name="btnCriarPerfil" type="id" />
+</resources>

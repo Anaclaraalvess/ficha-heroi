@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CriacaoHeroiActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_bem_vindo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Personalize o perfil de:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_alinhamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Alinhamento:"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_bem_vindo" />
+
+        <RadioGroup
+            android:id="@+id/rg_alinhamento"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alinhamento">
+
+            <RadioButton
+                android:id="@+id/rb_heroi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Herói" />
+
+            <RadioButton
+                android:id="@+id/rb_vilao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vilão" />
+
+            <RadioButton
+                android:id="@+id/rb_antiheroi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anti-herói" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_poderes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Poderes:"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_alinhamento" />
+
+        <LinearLayout
+            android:id="@+id/ll_poderes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_poderes">
+
+            <CheckBox
+                android:id="@+id/cb_voo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voo" />
+
+            <CheckBox
+                android:id="@+id/cb_super_forca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Super-força" />
+
+            <CheckBox
+                android:id="@+id/cb_telepatia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telepatia" />
+
+            <CheckBox
+                android:id="@+id/cb_rajadas_energia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rajadas de Energia" />
+
+            <CheckBox
+                android:id="@+id/cb_super_velocidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Super-velocidade" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Avatar:"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_poderes" />
+
+        <ImageView
+            android:id="@+id/iv_avatar_seletor"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_avatar"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="Seletor de avatar" />
+
+        <Button
+            android:id="@+id/btn_gerar_ficha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Gerar Ficha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_avatar_seletor" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
