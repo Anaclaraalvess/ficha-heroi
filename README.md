@@ -18,7 +18,7 @@ Praticar:
 ##  Tecnologias Utilizadas
 
 - Kotlin
-- Android Studio (se foi usado)
+- Android Studio
 - Programação Orientada a Objetos
 
 ---
