@@ -1,10 +1,10 @@
-# 🦸 Ficha de Herói
+#  Ficha de Herói
 
 Aplicação desenvolvida em Kotlin com o objetivo de criar e exibir informações de um personagem (herói), aplicando conceitos básicos de programação orientada a objetos.
 
 ---
 
-## 📌 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Praticar:
 
@@ -15,7 +15,7 @@ Praticar:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Kotlin
 - Android Studio (se foi usado)
@@ -23,7 +23,7 @@ Praticar:
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 - Cadastro de nome do herói
 - Definição de poderes
@@ -32,7 +32,7 @@ Praticar:
 
 ---
 
-## 📚 Conceitos aplicados
+##  Conceitos aplicados
 
 - Classes e Objetos
 - Encapsulamento
@@ -41,6 +41,6 @@ Praticar:
 
 ---
 
-## 🎯 Aprendizados
+##  Aprendizados
 
 Este projeto foi importante para fortalecer minha base em lógica e orientação a objetos, além de melhorar minha organização de código em Kotlin.
